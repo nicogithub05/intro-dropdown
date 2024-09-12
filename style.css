@@ -20,3 +20,53 @@ body {
     font-size: 1.8rem; 
     font-family: var(--font-family);
 }
+
+.menu,
+.container1 {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    justify-content: space-between;
+    margin: 20px 30px;
+}
+
+.nav-ul {
+    display: flex;
+}
+
+img.logo {
+    margin-right: 40px;
+}
+
+.nav-ul {
+    list-style: none;
+}
+
+.nav-links {
+    text-decoration: none;
+    margin-right: 30px;
+    color: var(--gris);
+}
+
+.nav-links:hover {
+    text-decoration: underline;
+    color: var(--negro);
+}
+
+.link-login {
+    margin-right: 30px;
+    text-decoration: none;
+    color: var(--gris);
+}
+
+.button-register {
+    border: 2px solid var(--gris);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: var(--font-family);
+    background-color: transparent;
+    font-size: 1.8rem;
+    color: var(--gris);
+}
